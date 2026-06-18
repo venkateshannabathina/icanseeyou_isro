@@ -1,0 +1,22 @@
+# Data Manipulation & Analysis
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Notebook environment
+jupyter
+ipykernel
+
+# Configuration & Utilities
+PyYAML
+tqdm
+
+# Testing
+pytest
+pytest-cov

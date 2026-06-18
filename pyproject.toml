@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icanseeyou_isro"
+version = "0.1.0"
+description = "A structured data science / machine learning project workflow"
+readme = "README.md"
+authors = [
+    { name = "Venkatesh Annabathina" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+    "ipykernel",
+    "PyYAML",
+    "tqdm"
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
