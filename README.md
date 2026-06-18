@@ -5,19 +5,36 @@ A structured data science / machine learning project workflow.
 ## Directory Structure
 
 ```text
-├── notebooks/          # Jupyter notebooks for exploration and prototyping
-├── src/                # Source code for the project
-│   ├── data/           # Scripts to download or generate data
-│   ├── preprocessing/  # Data preprocessing and feature engineering pipeline
-│   ├── models/         # Model architectures, training, and prediction scripts
-│   ├── evaluation/     # Metrics and evaluation scripts
-│   └── utils/          # Helper/utility functions used across the project
-├── configs/            # Configuration files (YAML, JSON, etc.)
-├── tests/              # Unit and integration tests
-├── docs/               # Documentation
-├── requirements.txt    # Project dependencies
-├── README.md           # Project description and setup instructions
-└── .gitignore          # Git ignore file
+├── notebooks/
+│   ├── 00_environment_setup.ipynb
+│   ├── 01_data_acquisition.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_preprocessing.ipynb
+│   ├── 04_bls_detection.ipynb
+│   ├── 05_feature_engineering.ipynb
+│   ├── 06_validation_models.ipynb
+│   └── 07_evaluation.ipynb
+│
+├── src/
+│   ├── ingestion/
+│   ├── preprocessing/
+│   ├── detection/
+│   ├── features/
+│   ├── validators/
+│   ├── fusion/
+│   ├── visualization/
+│   └── utils/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── samples/
+│
+├── reports/
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 ## Setup Instructions
